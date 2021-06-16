@@ -1,11 +1,19 @@
+body {
+    background-color:rgb(240, 244, 247) ;
+}
 
 .centered {
     width: fit-content;
     margin: auto;
 }
 
+h1, h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(54, 54, 54);
+}
+
 .password-result {
-    height: 200px;
+    height: 140px;
     width: 700px;
     border: 3px dashed rgb(203, 215, 226);
     border-radius: 10px;
@@ -22,20 +30,23 @@ button {
 }
 
 .section2 {
+    margin-top: 40px;
     box-shadow:rgb(174, 176, 179) 0px 4px 10px 0px;
     padding: 30px;
+    background-color: white;
 }
 
-/* figure out how to get the placeholder sentence structured and how to make it a placeholder for when the password generates then it disappears */
-
 .placeholder {
-    color:rgb(174, 176, 179);
+    color:rgb(156, 158, 160);
     margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
 }
 
 hr {
     border:1px solid rgb(203, 215, 226)
 }
+
 
 
 
